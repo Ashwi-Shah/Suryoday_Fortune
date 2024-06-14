@@ -1,21 +1,21 @@
 import React from 'react';
-import useIntersectionObserver from './useIntersectionObserver'; // Adjust import path as per your directory structure
+import useIntersectionObserver from './useIntersectionObserver'; 
 
 const Amenities = () => {
-  const { containerRef, isVisible } = useIntersectionObserver({ threshold: 0.5 }); // Adjust threshold as needed
+  const { containerRef, isVisible } = useIntersectionObserver({ threshold: 0.5 });
   const amenitiesData = [
     { name: 'Medical Store', icon: 'img/a1.png' },
-    { name: 'Corporate Office', icon: 'img/a1.png' },
-    { name: 'Fashion', icon: 'img/a1.png' },
-    { name: 'Classes', icon: 'img/a1.png' },
-    { name: 'Banquet', icon: 'img/a1.png' },
-    { name: 'Jewellery', icon: 'img/a1.png' },
-    { name: 'Fitness Centre', icon: 'img/a1.png' },
-    { name: 'Bank', icon: 'img/a1.png' },
-    { name: 'Restaurant', icon: 'img/a1.png' },
-    { name: 'Home Accessories', icon: 'img/a1.png' },
-    { name: 'Super Market', icon: 'img/a1.png' },
-    { name: 'Hospital', icon: 'img/a1.png' },
+    { name: 'Corporate Office', icon: 'img/a2.png' },
+    { name: 'Fashion', icon: 'img/a3.png' },
+    { name: 'Classes', icon: 'img/a4.png' },
+    { name: 'Banquet', icon: 'img/a5.png' },
+    { name: 'Jewellery', icon: 'img/a6.png' },
+    { name: 'Fitness Centre', icon: 'img/a7.png' },
+    { name: 'Bank', icon: 'img/a8.png' },
+    { name: 'Restaurant', icon: 'img/a9.png' },
+    { name: 'Home Accessories', icon: 'img/a10.png' },
+    { name: 'Super Market', icon: 'img/a11.png' },
+    { name: 'Hospital', icon: 'img/a12.png' },
   ];
 
   return (
