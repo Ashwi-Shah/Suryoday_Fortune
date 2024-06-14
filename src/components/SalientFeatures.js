@@ -2,14 +2,14 @@ import React from 'react';
 
 const SalientFeatures = () => {
   const featureItems = [
-    { name: 'Ideal Location', imageSrc: 'img/file (1).png' },
-    { name: 'Close to Requirements', imageSrc: 'img/file (1).png' },
-    { name: 'Sufficient Parking', imageSrc: 'img/file (1).png' },
-    { name: 'Hospital-Grade Stretcher Lift', imageSrc: 'img/file (1).png' },
-    { name: 'Size options from 500-1500 sq.ft.', imageSrc: 'img/file (1).png' },
-    { name: 'high ceilings 14ft.', imageSrc: 'img/file (1).png' },
-    { name: 'Captivating Elevation Design', imageSrc: 'img/file (1).png' },
-    { name: 'High-quality Construction', imageSrc: 'img/file (1).png' },
+    { name: 'Ideal Location', imageSrc: 'img/s1.png' },
+    { name: 'Close to Requirements', imageSrc: 'img/s2.png' },
+    { name: 'Sufficient Parking', imageSrc: 'img/s3.png' },
+    { name: 'Hospital-Grade Stretcher Lift', imageSrc: 'img/s4.png' },
+    { name: 'Size options from 500-1500 sq.ft.', imageSrc: 'img/s5.png' },
+    { name: 'high ceilings 14ft.', imageSrc: 'img/s6.png' },
+    { name: 'Captivating Elevation Design', imageSrc: 'img/s7.png' },
+    { name: 'High-quality Construction', imageSrc: 'img/s8.png' },
   ];
 
   return (
