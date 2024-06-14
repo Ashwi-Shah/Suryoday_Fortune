@@ -40,7 +40,7 @@ const HomeSection = () => {
     >
       <div
         className="absolute top-0 left-0 w-full h-full bg-cover bg-no-repeat bg-center z-0"
-        style={{ backgroundImage: `url(/img/i2.jpg)` }}
+        style={{ backgroundImage: `url(/public/img/i2.jpg)` }}
       >
         <div className="absolute top-0 left-0 w-full h-full bg-gray-800 opacity-75 z-10"></div>
       </div>
