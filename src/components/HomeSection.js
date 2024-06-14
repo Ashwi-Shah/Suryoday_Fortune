@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import 'intersection-observer'; // Import the polyfill if needed
+import 'intersection-observer';
 
 const HomeSection = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -40,7 +40,7 @@ const HomeSection = () => {
     >
       <div
         className="absolute top-0 left-0 w-full h-full bg-cover bg-no-repeat bg-center z-0"
-        style={{ backgroundImage: `url(public/img/i3.jpg)` }}
+        style={{ backgroundImage: `url(/img/i3.jpg)` }}
       >
         <div className="absolute top-0 left-0 w-full h-full bg-gray-800 opacity-75 z-10"></div>
       </div>
