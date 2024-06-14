@@ -1,13 +1,148 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add these to your global CSS file or Tailwind CSS configuration */
+@keyframes slide-in-1 {
+    from {
+      transform: translateX(-50%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slide-in-2 {
+    from {
+      transform: translateX(30%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slide-in-3 {
+    from {
+      transform: translateY(-70%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slide-in-4 {
+    from {
+      transform: translateY(50%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slide-in-5 {
+    from {
+      transform: translate(-80%, -80%);
+      opacity: 0;
+    }
+    to {
+      transform: translate(0, 0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slide-in-6 {
+    from {
+      transform: translateY(50%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .animate-slide-in-1 {
+    animation: slide-in-1 1s forwards;
+  }
+  
+  .animate-slide-in-2 {
+    animation: slide-in-2 1s forwards;
+  }
+  
+  .animate-slide-in-3 {
+    animation: slide-in-3 1s forwards;
+  }
+  
+  .animate-slide-in-4 {
+    animation: slide-in-4 1s forwards;
+  }
+  
+  .animate-slide-in-5 {
+    animation: slide-in-5 1s forwards;
+  }
+  
+  .animate-slide-in-6 {
+    animation: slide-in-6 1s forwards;
+  }
+    
+  @keyframes fadeInDown {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .fade-in-down {
+    animation: fadeInDown 1s ease-out forwards;
+  }
+  
+/* Amenities.css */
+
+@keyframes rotateOnce {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.amenity-image {
+  transform: rotate(0deg); /* Start with no rotation */
+  transition: transform 0.3s ease-in-out; /* Smooth transition for transform property */
 }
+
+.amenity-image:hover {
+  animation: rotateOnce 1s forwards; /* Play the animation once and stay in the final state */
+}
+
+/* Optional: Adjust cursor style for better UX */
+.amenity-image:hover {
+  cursor: pointer;
+}
+
+/* Amenities.css */
+
+.amenities-section {
+  opacity: 0; /* Start with opacity 0 */
+  transform: translateY(-20px); /* Start slightly above */
+  transition: opacity 0.5s ease, transform 0.5s ease; /* Smooth transition for opacity and transform */
+}
+
+.fadeInDown {
+  opacity: 1;
+  transform: translateY(0);
+}
+
