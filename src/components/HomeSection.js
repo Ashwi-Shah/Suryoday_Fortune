@@ -40,12 +40,12 @@ const HomeSection = () => {
     >
       <div
         className="absolute top-0 left-0 w-full h-full bg-cover bg-no-repeat bg-center z-0"
-        style={{ backgroundImage: `url(/public/img/i2.jpg)` }}
+        style={{ backgroundImage: `url(/img/i2.jpg)` }}
       >
         <div className="absolute top-0 left-0 w-full h-full bg-gray-800 opacity-75 z-10"></div>
       </div>
       <div className="relative max-w-2xl mx-auto py-20 text-center text-[#c0a484] sm:w-80">
-        <img src="/public/img/logo.png" alt="Logo" className="logo h-32 mx-auto mb-3 -mt-20" />
+        <img src="/img/logo.png" alt="Logo" className="logo h-32 mx-auto mb-3 -mt-20" />
         <h2
           className={`text-4xl font-semibold mx-52 mb-1 sm:ml-16 font-sans transition-transform duration-[2000ms] ${
             isVisible ? 'translate-x-0' : '-translate-x-full sm:-translate-x-16 md:-translate-x-44 lg:-translate-x-60 xl:-translate-x-80 2xl:-translate-x-96'
